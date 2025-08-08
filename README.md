@@ -135,3 +135,31 @@ Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
 This implementation is based on the work of the GazeCapture project by the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT. We acknowledge their contributions and provide this code as a means to further research in gaze estimation and tracking.
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/CSAILVision/GazeCapture/blob/master/LICENSE.md) file for details
+
+## Future Work
+
+Our current implementation lays the groundwork for more advanced eye-tracking applications. Here are our planned next steps:
+
+### Phase 1: Dataset Expansion
+- Scale up training to utilize the full GazeCapture dataset
+  - Current implementation uses ~2% (~20K samples) of available data
+  - Full dataset contains over 2.4M frames from 1,474 participants
+  - Expected to significantly improve model robustness and generalization
+
+### Phase 2: Real-time Implementation
+- Develop webcam integration for live gaze tracking
+- Optimize the inference pipeline for real-time processing
+- Create an efficient frame capture and prediction system
+
+### Phase 3: Technical Enhancements
+- Integration of attention mechanisms
+- Performance optimization strategies
+- Mobile deployment solutions
+- Cross-platform GPU support
+
+### Phase 4: Architecture Improvements
+- Enhanced regularization techniques
+- Additional data augmentation methods
+- Hyperparameter optimization for larger dataset
+
+The immediate priority is expanding our dataset utilization, which will provide the foundation for robust real-time applications.

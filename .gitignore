@@ -1,7 +1,30 @@
-# Byte-compiled / optimized / DLL files
+# Blog and social media posts
+final_iTracker.md
+linkedin_post.md
+
+# Python
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model checkpoints and data
+*.pth
+*.tar
+*.mat
 
 # C extensions
 *.so
